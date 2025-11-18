@@ -44,8 +44,7 @@ real-time-communication-with-socket-io-wangarikama/
 │   │   └── store.js                 # Data store for users and messages
 │   ├── server.js                    # Express server setup
 │   └── package.json
-├── README.md                        # This file
-└── Week5-Assignment.md              # Assignment specifications
+├── README.md                        
 ```
 
 ## Setup Instructions
@@ -153,23 +152,43 @@ Navigate to the URL shown in your terminal (typically `http://localhost:5173`) t
 ### 1. Login Screen
 Users enter their name to join the chat application.
 
-![Login Screen](https://imgur.com/example1.png)
+![Login Screen](./screenshots/login-screen.png)
 
 *Initial login interface where users enter their username to access the chat.*
+
+**Features:**
+- Simple, clean login form with "Chat" heading
+- User name input field with placeholder text
+- "Join Chat" button to enter the application
 
 ### 2. Global Chat Room
 Main chat interface showing the global chat room with active users and messages.
 
-![Global Chat Room](https://imgur.com/example2.png)
+![Global Chat Room](./screenshots/global-chat.png)
 
 *Global Chat Room displaying all connected users and public messages. Shows "Active Users (1)" with "Connected" status and the Global Chat Room interface.*
+
+**Features:**
+- Active users counter showing connected users
+- User list in the sidebar (showing "Connected" status)
+- Global Chat Room channel selected and highlighted
+- Message history displayed chronologically
+- System messages showing user join/leave events
 
 ### 3. Private Messaging
 Direct message interface showing one-on-one communication between users.
 
-![Private Messages](https://imgur.com/example3.png)
+![Private Messages](./screenshots/private-messages.png)
 
 *Private message interface showing two active users (Cathy and Bob) with a direct message conversation. Message appears with timestamp and "Private" indicator.*
+
+**Features:**
+- User list showing all active users with profile indicators
+- Direct message conversation with selected user
+- Messages displayed with sender information and timestamp
+- "Private" indicator on messages for direct conversations
+- One-to-one communication thread maintained separately
+- Real-time message delivery with timestamp (e.g., "12:56 PM")
 
 ## Technology Stack
 
